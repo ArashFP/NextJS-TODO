@@ -1,4 +1,4 @@
-import { Schema, SchemaType, model } from 'mongoose'
+import mongoose, { Schema, SchemaType, model } from 'mongoose'
 
 const todoSchema = new Schema ({
   title: {
